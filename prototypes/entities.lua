@@ -5,11 +5,11 @@ data:extend({
     type = "assembling-machine",
     name = "gg-gleba-greenhouse-yumako",
     crafting_categories = {"gg-gleba-greenhouses"},
-    icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse.png",
+    icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_yumako.png",
     icon_size = 64,
     icons = {
       {
-        icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse.png",
+        icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_yumako.png",
         icon_size = 64,
       }
     },
@@ -50,7 +50,7 @@ data:extend({
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     graphics_set = {
         animation = {
-          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_off.png",
+          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_yumako_off.png",
           width = 113,
           height = 93,
           frame_count = 1,
@@ -61,7 +61,7 @@ data:extend({
           {
             light = {intensity = 1, size = 6},
             animation = {
-              filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_on.png",
+              filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_yumako_on.png",
               width = 113,
               height = 93,
               frame_count = 1,
@@ -80,11 +80,11 @@ data:extend({
     type = "assembling-machine",
     name = "gg-gleba-greenhouse-jellynut",
     crafting_categories = {"gg-gleba-greenhouses"},
-    icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse.png",
+    icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_jellynut.png",
     icon_size = 64,
     icons = {
       {
-        icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse.png",
+        icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_jellynut.png",
         icon_size = 64,
       }
     },
@@ -125,7 +125,7 @@ data:extend({
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     graphics_set = {
         animation = {
-          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_off.png",
+          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_jellynut_off.png",
           width = 113,
           height = 93,
           frame_count = 1,
@@ -136,7 +136,7 @@ data:extend({
           {
             light = {intensity = 1, size = 6},
             animation = {
-              filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_on.png",
+              filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_jellynut_on.png",
               width = 113,
               height = 93,
               frame_count = 1,
