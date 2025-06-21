@@ -14,6 +14,7 @@ data:extend({
     order = "x[bi]-aa[gg-gleba-greenhouse-yumako]",
     place_result = "gg-gleba-greenhouse-yumako",
     stack_size= 10,
+    weight = 10*kg
   },
   {
     type= "item",
@@ -30,5 +31,6 @@ data:extend({
     order = "x[bi]-aa[gg-gleba-greenhouse-jellynut]",
     place_result = "gg-gleba-greenhouse-jellynut",
     stack_size= 10,
+    weight = 10*kg
   },
 })

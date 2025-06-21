@@ -27,7 +27,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = { pollution = 4 }
+      emissions_per_minute = { pollution = -4 }
     },
     resistances = {
       {
@@ -102,7 +102,7 @@ data:extend({
     energy_source = {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions_per_minute = { pollution = 4 }
+      emissions_per_minute = { pollution = -4 }
     },
     resistances = {
       {
