@@ -1,0 +1,11 @@
+{
+  "name": "gleba-greenhouses",
+  "version": "1.0.0",
+  "title": "Gleba Greenhouses",
+  "author": "cindersofash",
+  "contact": "cinders.of.ash@gmail.com",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "space-age >= 2.0"],
+  "space_travel_required": true,
+  "description": "Adds greenhouses to grow Gleba plants on Nauvis."
+}
