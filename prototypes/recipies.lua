@@ -68,9 +68,10 @@ data:extend({
       }
     },
     category = "gg-gleba-greenhouses-yumako",
-    energy_required = 4,
+    energy_required = 480,
     ingredients = {
         {type = "fluid", name = "water", amount = 20},
+        {type = "item", name = "spoilage", amount = 1},
     },
     results = {
         {type = "item", name = "yumako", amount = 10}
@@ -92,9 +93,10 @@ data:extend({
       }
     },
     category = "gg-gleba-greenhouses-jellynut",
-    energy_required = 4,
+    energy_required = 480,
     ingredients = {
         {type = "fluid", name = "water", amount = 20},
+        {type = "item", name = "spoilage", amount = 1},
     },
     results = {
         {type = "item", name = "jellynut", amount = 10}

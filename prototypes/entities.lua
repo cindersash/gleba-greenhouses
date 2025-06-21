@@ -48,26 +48,28 @@ data:extend({
       module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    animation = {
-      filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_off.png",
-      width = 113,
-      height = 93,
-      frame_count = 1,
-      scale = 1,
-      shift = {0.3, 0}
-    },
-    working_visualisations = {
-      {
-        light = {intensity = 1, size = 6},
+    graphics_set = {
         animation = {
-          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_on.png",
+          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_off.png",
           width = 113,
           height = 93,
           frame_count = 1,
           scale = 1,
           shift = {0.3, 0}
-        }
-      }
+        },
+        working_visualisations = {
+          {
+            light = {intensity = 1, size = 6},
+            animation = {
+              filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_on.png",
+              width = 113,
+              height = 93,
+              frame_count = 1,
+              scale = 1,
+              shift = {0.3, 0}
+            }
+          }
+        },
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
@@ -121,26 +123,28 @@ data:extend({
       module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    animation = {
-      filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_off.png",
-      width = 113,
-      height = 93,
-      frame_count = 1,
-      scale = 1,
-      shift = {0.3, 0}
-    },
-    working_visualisations = {
-      {
-        light = {intensity = 1, size = 6},
+    graphics_set = {
         animation = {
-          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_on.png",
+          filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_off.png",
           width = 113,
           height = 93,
           frame_count = 1,
           scale = 1,
           shift = {0.3, 0}
-        }
-      }
+        },
+        working_visualisations = {
+          {
+            light = {intensity = 1, size = 6},
+            animation = {
+              filename = "__gleba-greenhouses__/graphics/entities/bio_greenhouse_on.png",
+              width = 113,
+              height = 93,
+              frame_count = 1,
+              scale = 1,
+              shift = {0.3, 0}
+            }
+          }
+        },
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
