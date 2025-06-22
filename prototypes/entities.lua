@@ -4,7 +4,6 @@ data:extend({
   {
     type = "assembling-machine",
     name = "gg-gleba-greenhouse-yumako",
-    crafting_categories = {"gg-gleba-greenhouses"},
     icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_yumako.png",
     icon_size = 64,
     icons = {
@@ -79,7 +78,6 @@ data:extend({
   {
     type = "assembling-machine",
     name = "gg-gleba-greenhouse-jellynut",
-    crafting_categories = {"gg-gleba-greenhouses"},
     icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_jellynut.png",
     icon_size = 64,
     icons = {
