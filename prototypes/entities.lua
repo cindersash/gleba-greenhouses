@@ -1,5 +1,3 @@
-local sounds = require("__base__.prototypes.entity.sounds")
-
 data:extend({
   {
     type = "assembling-machine",
@@ -43,9 +41,7 @@ data:extend({
         pipe_connections = {{ flow_direction = "input", direction = defines.direction.north, position = {0, -1} }}
       },
     },
-    module_specification = {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     graphics_set = {
         animation = {
@@ -72,7 +68,7 @@ data:extend({
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound = sounds.generic_impact,
+    impact_category = "metal",
   },
 
   {
@@ -117,9 +113,7 @@ data:extend({
         pipe_connections = {{ flow_direction = "input", direction = defines.direction.north, position = {0, -1} }}
       },
     },
-    module_specification = {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     graphics_set = {
         animation = {
@@ -146,6 +140,6 @@ data:extend({
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound = sounds.generic_impact,
+    impact_category = "metal",
   },
 })
