@@ -2,7 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "gg-gleba-greenhouse-yumako",
-    category = "organic-or-hand-crafting",
+    categories = {"organic", "hand-crafting"},
     icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_yumako.png",
     icon_size = 64,
     icons = {
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "recipe",
     name = "gg-gleba-greenhouse-jellynut",
-    category = "organic-or-hand-crafting",
+    categories = {"organic", "hand-crafting"},
     icon = "__gleba-greenhouses__/graphics/icons/bio_greenhouse_jellynut.png",
     icon_size = 64,
     icons = {
@@ -67,7 +67,7 @@ data:extend({
         icon_size = 64,
       }
     },
-    category = "gg-gleba-greenhouses-yumako",
+    categories = {"gg-gleba-greenhouses-yumako"},
     energy_required = 480,
     ingredients = {
         {type = "fluid", name = "water", amount = 20},
@@ -92,7 +92,7 @@ data:extend({
         icon_size = 64,
       }
     },
-    category = "gg-gleba-greenhouses-jellynut",
+    categories = {"gg-gleba-greenhouses-jellynut"},
     energy_required = 480,
     ingredients = {
         {type = "fluid", name = "water", amount = 20},
